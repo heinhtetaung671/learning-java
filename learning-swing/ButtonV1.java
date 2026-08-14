@@ -9,7 +9,7 @@ public class ButtonV1 {
 
 	public void go () {
 		JFrame frame = new JFrame();
-		JButton button = new JButton("click me");
+		JButton button = new JButton("click me as you like");
 		frame.getContentPane().add(BorderLayout.EAST, button);
 		frame.setSize(400, 400);
 		frame.setVisible(true);
